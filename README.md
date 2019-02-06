@@ -1,4 +1,15 @@
 
+# GitHub Action for Android SDK
+
+## Usage
+
+```
+action "assemble" {
+  uses = "musichin/action-gradle-android@master"
+  args = "assemble"
+}
+```
+
 ## License
 
     MIT License
